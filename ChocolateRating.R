@@ -23,4 +23,11 @@ plot_missing(d)
 plot_histogram(d)
 plot_density(d)
 
+#Correlation plot
+plot_correlation(d, type = 'continuous','Review.Date')
 
+#Popularity of colocolates increases as the year goes
+plot_bar(d)
+
+#Generates an eda report
+create_report(d)
